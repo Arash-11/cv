@@ -1,0 +1,94 @@
+
+body {
+  background-color: hsla(228, 6%, 66%, 0.05);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  color: #758184;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+h4 {
+  font-weight: 600;
+}
+
+/* TITLE */
+
+#title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3em;
+}
+
+.bold-header {
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+.header-statement {
+  max-width: 35em;
+}
+
+/* CARDS */
+
+#boxes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+img {
+  width: 18%;
+  margin-top: 1em;
+  position: relative;
+  left: 15em;
+}
+
+.box {
+  background-color: #fff;
+  width: 22em;
+  height: 15em;
+  margin: auto 1em 2em 2em;
+  border: solid 0;
+  border-top: solid 0.2em;
+  border-radius: 0.25rem;
+  box-shadow: 0 1.3rem 1.5rem 0 rgba(216, 226, 236, 0.7);
+}
+
+.content {
+  padding: 2em;
+  padding-top: 1.5em;
+}
+
+.box-supervisor {
+  border-top-color: Cyan;
+}
+
+.box-teambuilder {
+  border-top-color: Red;
+}
+
+.box-karma {
+  border-top-color: Orange;
+}
+
+.box-calculator {
+  border-top-color: Blue;
+}
+
+@media (max-width: 800px) {
+  #boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
+}
